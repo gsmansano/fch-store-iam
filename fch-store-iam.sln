@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lw.FchStore.Iam.Api", "src\Lw.FchStore.Iam.Api\Lw.FchStore.Iam.Api.csproj", "{7B449C93-10B1-42B1-85B1-8B48B40F97EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B449C93-10B1-42B1-85B1-8B48B40F97EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B449C93-10B1-42B1-85B1-8B48B40F97EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B449C93-10B1-42B1-85B1-8B48B40F97EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B449C93-10B1-42B1-85B1-8B48B40F97EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
