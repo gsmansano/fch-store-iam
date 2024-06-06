@@ -15,7 +15,7 @@ public class ApplicationRole : IdentityRole<int>
 
 public enum ProfileType
 {
-    ADMINSTRATOR = 1000,    
+    ADMINISTRATOR = 1000,    
     CLIENT = 1
 }
 
