@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lw.FchStore.Iam.Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240603222546_Initial")]
-    partial class Initial
+    [Migration("20240606164600_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -48,6 +48,14 @@ builder.Services.AddAuthentication(x =>
 
 var app = builder.Build();
 
+app.UseCors(c =>
+{
+    c.WithOrigins("http://localhost:3030");
+    c.AllowAnyHeader();
+    c.AllowAnyMethod();
+    c.AllowAnyOrigin();
+});
+
 // Configure the HTTP request pipeline.
 
 app.UseSwagger();

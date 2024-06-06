@@ -32,7 +32,7 @@ public class UsersController : ControllerBase
             Email = model.Email,
             Fullname = model.Fullname,
             IsActive = true,
-            Profile = 1
+            Profile = ProfileType.CLIENT
         };
 
         var pwd = model.Password;
